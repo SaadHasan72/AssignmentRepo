@@ -35,7 +35,7 @@ namespace Assignment
             int x = 3;
             float y = 3.3f;
             Console.WriteLine((2*3) + ++x /5 *6.9 - y--);
-            // first calculation will perform its ++x then (2*3) , x+1 /5 *6.9 , result - y
+            // first calculation will perform its ++x then (2*3) , x+1 /5 *6.9 , result - y , result + the product of (2*3)
             //and in the end of calculatin y will deducted by 1 
             #endregion
 
