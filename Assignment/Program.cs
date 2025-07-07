@@ -8,7 +8,7 @@ namespace Assignment
     {
         static void Main()
         {
-            
+
             //#region Q1
             //////Write a program that allows the user to enter a number then print it.
             //int num = int.Parse(Console.ReadLine());
@@ -39,6 +39,16 @@ namespace Assignment
             ////and in the end of calculatin y will deducted by 1 
             //#endregion
 
+            #region Q4
+            //Write C# program that Extract a substring from a given string.  
+
+            string name = "Saad Usama Saad ";
+
+            string FirstName = name.Substring(0, 4);
+            string MedName = name.Substring(5, 5);
+            string LastName = name.Substring(11, 4);
+            Console.WriteLine($"My name is {FirstName} My Father is name {MedName}and Last name is {LastName}");
+            #endregion
 
 
             #region Q4
